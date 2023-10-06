@@ -1,15 +1,19 @@
-body {
-    background-size: cover;
-    background-image: url("/Images/THE\ CATS\ COTTAGE\ PATTERN\ -\ Pale\ Pink\ background-01.jpg");
+html * {
+    font-family: 'Caveat', cursive;
 }
 
-#map {
+body {
+    background-size: contain;
+    background-image: url("/Images/THE\ CATS\ COTTAGE\ PATTERN\ -\ Yellow\ background-01.jpg");
+}
+
+#map-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#map h1 {
+#map-container h2 {
     margin-right: 5%;
 }
 
@@ -65,7 +69,21 @@ p {
     align-items: center;
 }
 
+#bottom-container h1 {
+    text-decoration: underline;
+}
+
 #menu-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+#menu {
+    width: 50vw;
+    min-width: 30em;
+    height: auto;
+    border-radius: 30px;
+    border: 5px solid rgba(168,124,81,255);
+    padding: 10px;
 }
