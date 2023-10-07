@@ -3,8 +3,8 @@ html * {
 }
 
 body {
-    background-size: contain;
-    background-image: url("/Images/THE\ CATS\ COTTAGE\ PATTERN\ -\ Yellow\ background-01.jpg");
+    background-size: 200%;
+    background-image: url("/Images/THE\ CATS\ COTTAGE\ PATTERN\ -\ Pale\ Pink\ background-01.jpg");
 }
 
 #map-container {
@@ -13,8 +13,23 @@ body {
     align-items: center;
 }
 
-#map-container h2 {
+/* #map-container h2 {
     margin-right: 5%;
+} */
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 5px solid rgba(168,124,81,255);
+    padding: 10px;
+    margin: 10px;
+}
+
+#links h2{
+    font-size: calc(12px + 1.5vw);
+    text-wrap: nowrap;
 }
 
 #hours {
@@ -38,6 +53,15 @@ header {
 #image-container{
     display:flex;
     justify-content: center;
+    width: 45em;
+    height: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+#image-container img{
+    /* border-radius: 20px; */
 }
 
 #logo {
@@ -60,6 +84,8 @@ hr.catline {
 
 p {
     max-width: 50%;
+    font-size: calc(10px + 1.5vw);
+    font-weight: 500;
 }
 
 #bottom-container {
@@ -80,10 +106,22 @@ p {
 }
 
 #menu {
-    width: 50vw;
-    min-width: 30em;
+    max-width: 60vw;
     height: auto;
     border-radius: 30px;
     border: 5px solid rgba(168,124,81,255);
     padding: 10px;
+}
+
+#map {
+    border-radius: 30px;
+    border: 5px solid rgba(168,124,81,255);
+    padding: 10px;
+}
+
+#ig-icon {
+    max-width: 200px;
+    width: 50vw;
+    height: auto;
+    border-radius: 20px;
 }
