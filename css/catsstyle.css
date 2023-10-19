@@ -4,7 +4,7 @@ html * {
 
 body {
     background-size: 200%;
-    background-image: url("../images/THE\ CATS\ COTTAGE\ PATTERN\ -\ Pale\ Pink\ background-01.jpg");
+    background-image: url("../images/THE CATS COTTAGE PATTERN - Pale Pink background-01.jpg");
 }
 
 #map-container {
@@ -12,10 +12,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/* #map-container h2 {
-    margin-right: 5%;
-} */
 
 #links {
     display: flex;
@@ -60,10 +56,6 @@ header {
     background-color: #f2f2f2;
     border-radius: 20px;
 }
-
-/* #image-container img{
-    /* border-radius: 20px; */
-} */
 
 #logo {
     max-width: 25%;
@@ -162,7 +154,7 @@ p {
 }
 
 #ig-icon {
-    max-width: 100px;
+    max-width: 200px;
     width: 50vw;
     height: auto;
     border-radius: 20px;
