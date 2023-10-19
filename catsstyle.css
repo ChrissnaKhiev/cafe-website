@@ -25,6 +25,7 @@ body {
     border: 5px solid rgba(168,124,81,255);
     padding: 10px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #links h2{
@@ -77,15 +78,50 @@ hr.catline {
     width: auto;
 }
 
-#about {
+#about-container {
     display: flex;
     justify-content: center;
 }
 
-p {
-    max-width: 50%;
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(242,242,242, 0.5);
+    border-radius: 30px;
+    border: 5px solid rgba(168,124,81,255);
+    width: 60vw;
+}
+
+#about h1 {
     font-size: calc(10px + 1.5vw);
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#about h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: calc(8px + 1.5vw);
+}
+
+#startP {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#endP {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 70%;
+    font-size: calc(8px + 1.5vw);
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #bottom-container {
@@ -106,21 +142,27 @@ p {
 }
 
 #menu {
-    max-width: 60vw;
+    max-width: 70vw;
     height: auto;
     border-radius: 30px;
     border: 5px solid rgba(168,124,81,255);
     padding: 10px;
+    background-color: rgba(242,242,242, 0.5);
+}
+
+#bottom-container h1 {
+    font-size: calc(14px + 1.5vw);
 }
 
 #map {
     border-radius: 30px;
     border: 5px solid rgba(168,124,81,255);
     padding: 10px;
+    background-color: rgba(242,242,242, 0.5);
 }
 
 #ig-icon {
-    max-width: 200px;
+    max-width: 100px;
     width: 50vw;
     height: auto;
     border-radius: 20px;
